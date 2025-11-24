@@ -10,7 +10,7 @@ from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
 # =========================
-# CONFIG FICHIERS
+# CONFIG FICHIERSgit
 # =========================
 ITEMS_FILE = "books_enriched_BASE.xlsx"   # ton XLSX enrichi
 ITEMS_SHEET = "Sheet1"                    # adapte si le nom de l'onglet change
