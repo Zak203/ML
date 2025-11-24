@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ============= CONFIGURATION =================
 #INPUT_FILE = "mlproject.xlsx"
-INPUT_FILE = "books_enriched_sumary_Manque_Part1.xlsx"
+INPUT_FILE = "books_enriched_sumary_Manqu_Part2_result.xlsx"
 #SHEET_NAME = "items"
 SHEET_NAME = "Sheet1"
 ISBN_COL = "ISBN Valid"
@@ -321,7 +321,7 @@ def main():
         df[col] = meta_df[col]
 
     # ---- 8. Sauvegarde test ----
-    df.to_excel("books_enriched_sumary_Manqu_part1_result.xlsx", index=False)
+    df.to_excel("books_enriched_sumary_Manqu_Part2_result.xlsx", index=False)
     print("✅ Test terminé → resultat : books_enriched_TEST.xlsx")
 
 

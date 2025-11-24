@@ -1,0 +1,4 @@
+Idée d'amélioration des models :
+
+1. ya plusieurs interactoins identique par user, peut etre penser à monter le point de profil de livre, relu plusieurs fois
+2. 
