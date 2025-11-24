@@ -11,7 +11,7 @@ from tqdm import tqdm
 # =========================
 # CONFIG FICHIERS
 # =========================
-ITEMS_FILE = "books_enriched_BASE.xlsx"   # ton XLSX enrichi
+ITEMS_FILE = "resultats_enrichie/final/books_enriched_FIXED.xlsx"  # ton XLSX enrichi
 ITEMS_SHEET = "Sheet1"                    # change si besoin
 
 INTERACTIONS_FILE = "kaggle_data/interactions_train.csv"
